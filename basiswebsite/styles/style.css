@@ -1,5 +1,127 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+/* fonts ( ik ben GEEN eigenaar van deze fonts ik gebruik deze alleen voor leer doeleinde) */
+@font-face {
+  font-family: "GraphikBold";
+  src: url("fonts/GraphikBold.otf");
+}
+@font-face {
+  font-family: "GraphikMedium";
+  src: url("fonts/GraphikMedium.otf");
+}
+@font-face {
+  font-family: "GraphikRegular";
+  src: url("fonts/GraphikRegular.otf");
 }
 
+
+
+*, *::after, *::before {
+  box-sizing:border-box;
+}
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  height: 67px;
+  color: rgb(5, 15, 25);
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.07);
+
+}
+.header_wrap{
+  width: 98vw;
+  max-width: 1180px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "GraphikMedium";
+  font-size: 14px;
+
+}
+.header_wrap > img{
+  max-height: 20px;
+}
+
+nav > ul{
+  display: flex;
+  width: 50vw;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+
+}
+nav > ul > li{
+list-style: none;
+margin: 0px 18px 0px 18px;
+line-height: 68px;
+transition: .1s;
+}
+nav > ul > li:hover{
+border-bottom: 4px solid rgb(0, 82, 255);
+
+
+
+}
+
+nav > ul > li > a{
+color: rgb(5, 15, 25);
+text-decoration: none;
+}
+
+
+.header_loginPart > a{
+  color: rgb(5, 15, 25);
+  text-decoration: none;
+}
+
+.header_loginPart > a:nth-child(2){
+  background-color: rgb(0, 82, 255);
+  color: white;
+  text-decoration: none;
+  padding: 11px 13px;
+  border-radius: 4px;
+  margin-left: 17px;
+  font-family: "GraphikRegular";
+}
+
+.wrapper{
+  width: 98vw;
+  max-width: 1180px;
+  margin: 0 auto;
+
+}
+
+.hero_wrapper{
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.hero_wrapper > .left_side{
+  /* background-color: red; */
+  width: 50%;
+
+}
+
+/* @media only screen and (max-width: 600px) {
+  .hero_wrapper > .left_side{
+    width: 100%;
+
+  }
+} */
+.hero_wrapper > .right_side{
+  /* background-color: pink; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.hero_wrapper > .right_side > svg{
+  height: 600px;
+}
