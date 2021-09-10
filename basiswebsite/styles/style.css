@@ -4,111 +4,225 @@
   font-family: "GraphikBold";
   src: url("fonts/GraphikBold.otf");
 }
+
 @font-face {
   font-family: "GraphikMedium";
   src: url("fonts/GraphikMedium.otf");
 }
+
 @font-face {
   font-family: "GraphikRegular";
   src: url("fonts/GraphikRegular.otf");
 }
 
 :root {
- --font-bold: 'GraphikBold', sans-serif;
- --font-medium: 'GraphikMedium', sans-serif;
- --font-regular: 'GraphikRegular', sans-serif;
-
- --coinbase_blue: rgb(0, 82, 255);
-
+  --font-bold: 'GraphikBold', sans-serif;
+  --font-medium: 'GraphikMedium', sans-serif;
+  --font-regular: 'GraphikRegular', sans-serif;
+  --coinbase_blue: rgb(0, 82, 255);
+  --coinbase_black: rgb(5, 15, 25);
 }
 
 *, *::after, *::before {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
-html, body{
+
+html, body {
   padding: 0;
   margin: 0;
 }
 
-header{
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
-  height: 60px;
-  font-family: var(--font-bold);
+header {
+  height: 67px;
+  color: rgb(5, 15, 25);
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.07);
+}
+
+.header_wrap {
+  width: 98vw;
+  max-width: 1180px;
+  margin: 0 auto;
+  height: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  font-family: "GraphikMedium";
   font-size: 14px;
-
-}
-.header_wrap{
-  margin: 0px 3vw 0px 3vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
-header img{
+.header_wrap>.img_container>img {
   max-height: 20px;
 }
-header a{
+
+nav>ul {
+  display: flex;
+  width: 50vw;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+nav>ul>li {
+  list-style: none;
+  margin: 0px 18px 0px 18px;
+  line-height: 68px;
+  transition: .1s;
+  /* background-color: blue; */
+}
+
+nav>ul>li:hover {
+  border-bottom: 4px solid var(--coinbase_blue);
+}
+
+details {
+  display: none;
+}
+
+@media only screen and (max-width: 975px) {
+  .header_wrap>.img_container {
+    flex-grow: 2;
+  }
+
+  nav {
+    display: none;
+  }
+
+  details {
+    display: block;
+  }
+  details[open] > summary >span{
+    /* background-color: blue; */
+
+  }
+
+
+
+  summary {
+    list-style-type: none;
+    position: relative;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    margin: 0px 6px 0px 12px;
+    /* background-color: red */
+  }
+
+  summary>span {
+    display: block;
+    height: 2px;
+    width: 18px;
+    border-radius: 4px;
+    background-color: var(--coinbase_black);
+    margin: 0px 10px 0px 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+  }
+
+  summary>span:before {
+    content: '';
+    height: 2px;
+    width: 18px;
+    border-radius: 4px;
+    background-color: var(--coinbase_black);
+    position: absolute;
+    top: 8px;
+  }
+
+  summary>span::after {
+    content: '';
+    height: 2px;
+    width: 18px;
+    border-radius: 4px;
+    background-color: var(--coinbase_black);
+    position: absolute;
+    top: -8px;
+  }
+
+  .header_loginPart>a:nth-child(1) {
+    display: none;
+  }
+
+  details ul {
+    background-color: white;
+    list-style: none;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    font-size: 16px;
+
+  }
+
+
+  details ul li {
+    padding: 20px 0px 20px 20px;
+  }
+
+  details ul li a {
+    color: var(--coinbase_black);
+    text-decoration: none;
+  }
+}
+
+nav>ul>li>a {
+  color: var(--coinbase_black);
+  text-decoration: none;
+}
+
+.header_loginPart>a {
+  color: var(--coinbase_black);
+  text-decoration: none;
+}
+
+.header_loginPart>a:nth-child(2) {
   background-color: var(--coinbase_blue);
   color: white;
   text-decoration: none;
   padding: 11px 13px;
   border-radius: 4px;
+  margin-left: 17px;
   font-family: var(--font-regular);
 }
-/* .header_wrap details summary svg{
-  height: 10px;
-} */
-.header_wrap svg{
-  height: 30px;
-  width: 20px;
-}
 
-section:nth-child(2){
+section:nth-child(2) {
   margin: 18vh 7% 0 7%;
   font-family: var(--font-regular);
-
 }
 
-
-section:nth-child(2) > div > h1{
+section:nth-child(2)>div>h1 {
   font-family: var(--font-medium);
   font-size: 2em;
   line-height: 40px;
-
 }
-section:nth-child(2) > div > span{
+
+section:nth-child(2)>div>span {
   font-family: var(--font-medium);
   color: var(--coinbase_blue);
-
-
 }
-section:nth-child(2) > div > p{
+
+section:nth-child(2)>div>p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-
-
 }
-section:nth-child(2) > div > form > input[type="email"]{
+
+section:nth-child(2)>div>form>input[type="email"] {
   width: 100%;
   padding: 20px;
   font-size: 18px;
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 3px;
   color: rgba(0, 0, 0, 0.6)
-
 }
 
-section:nth-child(2) > div > form > input[type="submit"]{
+section:nth-child(2)>div>form>input[type="submit"] {
   width: 100%;
   padding: 20px;
   font-size: 16px;
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 3px;
   color: white;
-  background-color:var(--coinbase_blue);
+  background-color: var(--coinbase_blue);
   margin-top: 15px;
-
 }
