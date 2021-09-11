@@ -52,6 +52,7 @@ header {
 
 .header_wrap>.img_container>img {
   max-height: 20px;
+  margin-left: 10px;
 }
 
 nav>ul {
@@ -90,10 +91,7 @@ details {
   details {
     display: block;
   }
-  details[open] > summary >span{
-    /* background-color: blue; */
 
-  }
 
 
 
@@ -127,6 +125,7 @@ details {
     background-color: var(--coinbase_black);
     position: absolute;
     top: 8px;
+
   }
 
   summary>span::after {
@@ -138,6 +137,13 @@ details {
     position: absolute;
     top: -8px;
   }
+  /* details[open] > summary >span:before{
+    background-color: blue;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    transition: 1s;
+
+
+  } */
 
   .header_loginPart>a:nth-child(1) {
     display: none;
@@ -185,44 +191,83 @@ nav>ul>li>a {
   font-family: var(--font-regular);
 }
 
-section:nth-child(2) {
-  margin: 18vh 7% 0 7%;
+
+section{
+  display: flex;
+  height: 90vh;
+  /* position: relative; */
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.leftside {
   font-family: var(--font-regular);
+  width: 450px;
+  min-width: 450px;
+  margin-left: 50px;
+  margin-bottom: 100px;
 }
 
-section:nth-child(2)>div>h1 {
+.leftside > h1 {
   font-family: var(--font-medium);
-  font-size: 2em;
-  line-height: 40px;
+  font-size: 4em;
+  line-height: 1.1em;
+  margin: 20px 0 0 0;
 }
 
-section:nth-child(2)>div>span {
+.leftside >span {
   font-family: var(--font-medium);
   color: var(--coinbase_blue);
+  cursor: pointer;
+
+
 }
 
-section:nth-child(2)>div>p {
-  font-size: 16px;
-  font-weight: 400;
+.leftside >p {
+  font-size: 1.1em;
   line-height: 24px;
-}
+  font-family: var(--font-medium);
 
-section:nth-child(2)>div>form>input[type="email"] {
-  width: 100%;
+}
+.leftside >form{
+  display: flex;
+  gap: 1em;
+  flex-grow: 1;
+}
+.leftside >form>input[type="email"] {
+  width: 67%;
   padding: 20px;
   font-size: 18px;
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 3px;
-  color: rgba(0, 0, 0, 0.6)
+  color: rgba(0, 0, 0, 0.4);
+  display: block;
+
 }
 
-section:nth-child(2)>div>form>input[type="submit"] {
-  width: 100%;
-  padding: 20px;
+.leftside  > form > input[type="submit"] {
+  width: 33%;
+  padding: 24px 30px 24px 30px;
   font-size: 16px;
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 3px;
   color: white;
   background-color: var(--coinbase_blue);
-  margin-top: 15px;
+  /* margin-top: 15px; */
+  display: block;
+
+}
+.rightside{
+  position: relative;
+  /* width: 50%; */
+  /* background-color: red; */
+  /* max-width: 690px; */
+}
+
+.rightside svg{
+  height: 600px;
+
+
 }

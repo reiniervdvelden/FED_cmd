@@ -59,13 +59,9 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina:
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdown.png" width="375px" alt="breakdown van de hele pagina">
 
-### dynamisch deel (bijv menu):
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-### wellicht nog een dynamisch deel (bijv filter):
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -80,7 +76,7 @@ hier de naam van de pagina
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Mijn eerste week coderen ging wat moeizamer dan verwacht ik moest er weer even goed inkomen.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
