@@ -79,7 +79,184 @@ details {
   display: none;
 }
 
-@media only screen and (max-width: 975px) {
+
+
+nav>ul>li>a {
+  color: var(--coinbase_black);
+  text-decoration: none;
+}
+
+.header_loginPart>a {
+  color: var(--coinbase_black);
+  text-decoration: none;
+}
+
+.header_loginPart>a:nth-child(2) {
+  background-color: var(--coinbase_blue);
+  color: white;
+  text-decoration: none;
+  padding: 11px 13px;
+  border-radius: 4px;
+  margin-left: 17px;
+  font-family: var(--font-regular);
+}
+
+section:first-of-type{
+  height: 90vh;
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.leftside_content {
+  font-family: var(--font-regular);
+  width: 450px;
+
+}
+
+.leftside_content > h1 {
+  font-family: var(--font-medium);
+  font-size: 4em;
+  line-height: 1.1em;
+  margin: 20px 0 0 0;
+}
+
+.leftside_content >span {
+  font-family: var(--font-medium);
+  color: var(--coinbase_blue);
+  cursor: pointer;
+
+
+}
+
+.leftside_content >p {
+  font-size: 1.1em;
+  line-height: 24px;
+  font-family: var(--font-medium);
+
+}
+.leftside_content >form{
+  display: flex;
+  gap: 1em;
+  flex-grow: 1;
+}
+.leftside_content >form>input[type="email"] {
+  width: 67%;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.4);
+  display: block;
+
+}
+
+.leftside_content  > form > input[type="submit"] {
+  width: 33%;
+  padding: 24px 30px 24px 30px;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+  color: white;
+  background-color: var(--coinbase_blue);
+  /* margin-top: 15px; */
+  display: block;
+
+}
+.svg_illustratie{
+  max-height: 600px;
+  width: 40vw;
+  width: 500px;
+}
+
+
+/* /////////second section////////// */
+section:nth-child(3){
+}
+section:nth-child(3) table{
+  width: 100%;
+  max-width: 1142px;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  font-family: var(--font-regular);
+  font-size: 1.1em;
+  color: var(--coinbase_black);
+  border-collapse: collapse;
+
+}
+
+section:nth-child(3) table tr td:nth-child(1), section:nth-child(3) table tr th:nth-child(1){
+padding:  10px;
+text-align: center;
+
+}
+section:nth-child(3) table tr:hover {
+background-color: #FBFBFB;
+transition: .3s;
+/* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 14px; */
+}
+
+
+
+section:nth-child(3) table th{
+text-align: left;
+font-family: var(--font-regular);
+padding:  18px 0px 18px 0px;
+font-size: 0.8em;
+border-bottom: 0.5px solid rgba(0, 0, 0, 0.08);
+}
+
+section:nth-child(3) table td{
+padding:  18px 0px 18px 0px;
+text-align: left;
+border-bottom: 0.5px solid rgba(0, 0, 0, 0.08);
+
+}
+section:nth-child(3) td:nth-child(2){
+display: flex;
+align-items: center;
+gap:1em;
+}
+section:nth-child(3) td:nth-child(2) img{
+height: 36px;
+}
+section:nth-child(3) td:nth-child(5){
+width: 110px;
+}
+section:nth-child(3) td:nth-child(5) img{
+width: 80%;
+}
+section:nth-child(3) td:nth-child(6) button{
+background-color: rgb(9,133,81);
+color:white;
+padding: 8px 16px;
+border-radius: 4px;
+border: 1px solid rgb(9,133,81);
+cursor: pointer;
+}
+section:nth-child(3) td:nth-child(6) button:hover{
+background-color: #129961;
+border: 1px solid  #129961;
+}
+section:nth-child(3) table .td_more_space{
+padding-right:  200px;
+
+}
+
+
+
+
+
+
+/* ////////////MOBILE STUKJE 950px////////////
+////////////MOBILE STUKJE 950px////////////
+////////////MOBILE STUKJE 950px////////////
+////////////MOBILE STUKJE 950px//////////// */
+
+@media only screen and (max-width: 950px) {
   .header_wrap>.img_container {
     flex-grow: 2;
   }
@@ -169,105 +346,54 @@ details {
     color: var(--coinbase_black);
     text-decoration: none;
   }
+
+
+.svg_illustratie{
+display: none;
 }
 
-nav>ul>li>a {
-  color: var(--coinbase_black);
-  text-decoration: none;
+.leftside_wrapper{
+  width: 100%;
 }
-
-.header_loginPart>a {
-  color: var(--coinbase_black);
-  text-decoration: none;
-}
-
-.header_loginPart>a:nth-child(2) {
-  background-color: var(--coinbase_blue);
-  color: white;
-  text-decoration: none;
-  padding: 11px 13px;
-  border-radius: 4px;
-  margin-left: 17px;
-  font-family: var(--font-regular);
+.leftside_content{
+  width: 100%;
 }
 
 
-section{
-  display: flex;
-  height: 90vh;
-  /* position: relative; */
-  align-items: center;
-  justify-content: center;
 
+
+/* /////////Table responsive////// */
+section:nth-child(3) th,
+section:nth-child(3) td:nth-child(1), section:nth-child(3) th:nth-child(1),
+section:nth-child(3) td:nth-child(5), section:nth-child(3) th:nth-child(5),
+section:nth-child(3) td:nth-child(6), section:nth-child(3) th:nth-child(6){
+display: none;
+}
 
 }
 
-.leftside {
-  font-family: var(--font-regular);
-  width: 450px;
-  min-width: 450px;
-  margin-left: 50px;
-  margin-bottom: 100px;
-}
 
-.leftside > h1 {
-  font-family: var(--font-medium);
-  font-size: 4em;
-  line-height: 1.1em;
-  margin: 20px 0 0 0;
-}
+@media only screen and (max-width: 600px) {
+  .leftside_wrapper{
+    width: 100%;
+  }
 
-.leftside >span {
-  font-family: var(--font-medium);
-  color: var(--coinbase_blue);
-  cursor: pointer;
+  .leftside_content >form{
+    display: flex;
+    gap: 0.5em;
+    flex-grow: 1;
+    flex-direction: column;
+  }
+
+  .leftside_content >form>input[type="email"] {
+    width: 100%;
 
 
-}
+  }
 
-.leftside >p {
-  font-size: 1.1em;
-  line-height: 24px;
-  font-family: var(--font-medium);
-
-}
-.leftside >form{
-  display: flex;
-  gap: 1em;
-  flex-grow: 1;
-}
-.leftside >form>input[type="email"] {
-  width: 67%;
-  padding: 20px;
-  font-size: 18px;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 3px;
-  color: rgba(0, 0, 0, 0.4);
-  display: block;
-
-}
-
-.leftside  > form > input[type="submit"] {
-  width: 33%;
-  padding: 24px 30px 24px 30px;
-  font-size: 16px;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 3px;
-  color: white;
-  background-color: var(--coinbase_blue);
-  /* margin-top: 15px; */
-  display: block;
-
-}
-.rightside{
-  position: relative;
-  /* width: 50%; */
-  /* background-color: red; */
-  /* max-width: 690px; */
-}
-
-.rightside svg{
-  height: 600px;
+  .leftside_content  > form > input[type="submit"] {
+    width: 100%;
 
 
+  }
 }
