@@ -75,8 +75,7 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-Mijn eerste week coderen ging wat moeizamer dan verwacht ik moest er weer even goed inkomen.
+Het gaat opzich best goed, Ik ben bezig de home pagina ben al wel over de helft. Ik maak alles meteen responsive omdat ik denk dat dit makkelijker is.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
