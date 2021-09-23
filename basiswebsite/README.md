@@ -106,10 +106,13 @@ Verder ging bij mij alles wel goed. ik ga proberen de eerste pagina komende week
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-Het gaat opzich wel goed ik heb nu bijna de homepage af met de content die ik erop wil hebben. Er zijn alleen nog een paar dingen die ik moet fixen voor het responsive gedeelte
+Het gaat opzich wel goed ik heb nu bijna de homepage af met de content die ik erop wil hebben. Er zijn alleen nog een paar dingen die ik moet fixen voor het responsive gedeelte.
+
 <img src="images/landing_page.png" width="375px" alt="landing page zelf gemaakt">
 <img src="images/home_page_2.png" width="375px" alt="verdere info homepage">
 
+Om live te zien waar ik momenteel mee bezig ben is hier de link van mijn website. Ik zorg ervoor dat ik deze regelmatig update.
+https://oege.ie.hva.nl/~veldenr4/coinbase_schoolproject/
 
 ### Agenda voor meeting
 samen met je groepje opstellen
