@@ -90,10 +90,9 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- We hadden met ze alle besproken waar iedereen vast liep, Zelf had ik moeite met een hover effect de assistenten hebben mij hier goed mee geholpen om dit alsnof voor elkaar te krijgen.
+Verder ging bij mij alles wel goed. ik ga proberen de eerste pagina komende week af te maken.
+
 
 </details>
 
@@ -107,7 +106,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het gaat opzich wel goed ik heb nu bijna de homepage af met de content die ik erop wil hebben. Er zijn alleen nog een paar dingen die ik moet fixen voor het responsive gedeelte
+<img src="images/landing_page.png" width="375px" alt="landing page zelf gemaakt">
+<img src="images/home_page_2.png" width="375px" alt="verdere info homepage">
 
 
 ### Agenda voor meeting

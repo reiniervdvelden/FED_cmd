@@ -394,11 +394,14 @@ footer{
   flex-wrap: wrap;
   max-width: 1142px;
   margin: 0 auto;
+  justify-content: space-between;
+  background-color: red;
 }
 .general_left_wrapper_footer{
   display: flex;
   flex-direction: column;
-  gap:1em;
+  gap:1.3em;
+  width: 30%
 }
 .general_left_wrapper_footer img{
   max-height: 20px;
@@ -409,11 +412,13 @@ footer{
   color: rgba(0, 0, 0, 0.4);
   border: 0.5px solid rgba(0, 0, 0, 0.08);
   border-radius:5px;
+  width: 200px;
 }
 .list_wrapper_footer{
   display: flex;
   flex-wrap: wrap;
   flex: 1 1 21%;
+  width: 70%
 
 
 }
