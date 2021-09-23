@@ -30,6 +30,7 @@
 html, body {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 header {
@@ -68,11 +69,18 @@ nav>ul>li {
   margin: 0px 18px 0px 18px;
   line-height: 68px;
   transition: .1s;
-  /* background-color: blue; */
+  position: relative;
 }
 
-nav>ul>li:hover {
-  border-bottom: 4px solid var(--coinbase_blue);
+nav>ul>li:hover:after {
+  content:'';
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background-color: var(--coinbase_blue);
+  left: 0;
+  bottom:0;
+
 }
 
 details {
@@ -100,6 +108,9 @@ nav>ul>li>a {
   margin-left: 17px;
   font-family: var(--font-regular);
 }
+summary::-webkit-details-marker {
+    display: none;
+  }
 
 section:first-of-type{
   height: 720px;
@@ -171,6 +182,7 @@ section:first-of-type{
   width: 40vw;
   width: 500px;
 }
+
 
 
 /* /////////second section////////// */
@@ -260,6 +272,8 @@ section:nth-child(4){
 section:nth-child(4) div:nth-child(1){
   width: 350px;
 }
+@media only screen and (max-width: 1140px) {section:nth-child(4) div:nth-child(1){padding-left: 2vw;}}
+
 section:nth-child(4) div:nth-child(1) h2{
   font-size: 2em;
   font-family: var(--font-regular);
@@ -270,7 +284,7 @@ section:nth-child(4) div:nth-child(1) p{
   line-height: 1.5em;
 }
 section:nth-child(4) div:nth-child(1) button{
-  padding: 10px;
+  padding: 13px;
   font-size: 0.9em;
   border: 1px solid var(--coinbase_blue);
   border-radius: 3px;
@@ -315,6 +329,108 @@ right: 30px;
 section:nth-child(4)  ul li img{height: 36px;}
 
 
+
+section:nth-child(5){
+  /* background-color: red; */
+  max-width: 1142px;
+  margin: 0 auto;
+  font-family: var(--font-regular);
+
+}
+
+section:nth-child(5) > h2{
+  font-size: 2.3em;
+  /* font-family: var(--font-regular); */
+  text-align:center;
+
+}
+section:nth-child(5)  p{
+  font-size: 1em;
+  text-align:center;
+  color: rgba(0, 0, 0, 0.4);
+
+
+
+}
+section:nth-child(5) > div{
+  margin-top: 8vh;
+  display: flex;
+}
+
+.custom_list{
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+}
+.custom_list_item{
+display: flex;
+gap:2em;
+align-items: center;
+}
+.custom_list_item > div >h2{
+  font-size: 1.4em;
+}
+.custom_list_item > div >p{
+text-align: left;
+}
+.svg_circle{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+section:nth-child(5) > div >img{
+  max-width: 700px;
+
+}
+
+
+footer{
+  display: flex;
+  color: rgba(0, 0, 0, 0.4);
+  flex-wrap: wrap;
+  max-width: 1142px;
+  margin: 0 auto;
+}
+.general_left_wrapper_footer{
+  display: flex;
+  flex-direction: column;
+  gap:1em;
+}
+.general_left_wrapper_footer img{
+  max-height: 20px;
+
+}
+.general_left_wrapper_footer select{
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.4);
+  border: 0.5px solid rgba(0, 0, 0, 0.08);
+  border-radius:5px;
+}
+.list_wrapper_footer{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 21%;
+
+
+}
+.list_wrapper_footer > ul{
+list-style-type: none;
+font-family: var(--font-regular);
+display: block;
+}
+.list_wrapper_footer > ul > li {
+line-height: 1.5em;
+}
+.list_wrapper_footer > ul > li > h3{
+/* font-family: var(--font-bold); */
+font-size: 1em;
+color: var(--coinbase_black);
+
+}
 /* ////////////MOBILE STUKJE 950px////////////
 ////////////MOBILE STUKJE 950px////////////
 ////////////MOBILE STUKJE 950px////////////
@@ -433,6 +549,31 @@ section:nth-child(3) td:nth-child(5), section:nth-child(3) th:nth-child(5),
 section:nth-child(3) td:nth-child(6), section:nth-child(3) th:nth-child(6){
 display: none;
 }
+section:nth-child(4) {
+  width: 100%;
+  /* background-color: blue; */
+  flex-direction: column;
+}
+section:nth-child(4) div:nth-child(1){
+  width: 300px;
+  margin: 0 auto;
+  padding-left: 0;
+  text-align: center;
+}
+section:nth-child(4)  ul{
+  width: 90%;
+  margin: 10vh auto;
+  padding: 0;
+  /* background-color: red; */
+
+}
+section:nth-child(4)  ul li{
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 0;
+}
+section:nth-child(4)  ul li:nth-child(3), section:nth-child(4)  ul li:nth-child(2), section:nth-child(4)  ul li:nth-child(1) {
+  border-bottom: 0;
+}
 
 }
 
@@ -460,4 +601,15 @@ display: none;
 
 
   }
+
+  section:nth-child(4)  ul{
+    font-size: 1.1em;
+
+  }
+  section:nth-child(4)  ul li{
+    gap:1.1em;
+
+  }
+  section:nth-child(4)  ul li img{height: 30px;}
+
 }
