@@ -77,14 +77,6 @@ hier de naam van de pagina
 ### Stand van zaken
 Het gaat opzich best goed, Ik ben bezig de home pagina ben al wel over de helft. Ik maak alles meteen responsive omdat ik denk dat dit makkelijker is.
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
@@ -114,14 +106,6 @@ Het gaat opzich wel goed ik heb nu bijna de homepage af met de content die ik er
 Om live te zien waar ik momenteel mee bezig ben is hier de link van mijn website. Ik zorg ervoor dat ik deze regelmatig update.
 https://oege.ie.hva.nl/~veldenr4/coinbase_schoolproject/
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
