@@ -126,7 +126,7 @@ summary::-webkit-details-marker {
 .chart_stroke {
   stroke-dasharray: 760;
   stroke-dashoffset: 760;
-  animation: stroke_animation 5s linear forwards ;
+  animation: stroke_animation 5s linear forwards;
 }
 
 @keyframes stroke_animation {
@@ -160,10 +160,10 @@ to{
 
 
 }
-/* .circle_stroke_complete{
+.circle_stroke_complete{
   opacity: 0;
-  animation: circle_stroke_complete 1s linear;
-  animation-delay: 4s;
+  animation: circle_stroke_complete 1s linear forwards;
+  animation-delay: 4.5s;
 
 }
 @keyframes circle_stroke_complete {
@@ -171,7 +171,7 @@ to{
     opacity: 1;
 
   }
-} */
+}
 
 section:first-of-type{
   height: 720px;
@@ -204,6 +204,22 @@ section:first-of-type{
   align-items: center;
   gap:0.5em;
 
+
+}
+.coin{
+  animation: coinflip 2s linear forwards;
+  transform-style: preserve-3d;
+
+}
+
+
+
+@keyframes coinflip {
+to {
+  transform: rotateY(-1080deg);
+
+
+}
 }
 
 .leftside_content >p {
@@ -229,6 +245,9 @@ section:first-of-type{
   -webkit-appearance:none;
 }
 
+
+
+
 .leftside_content  > form > input[type="submit"] {
   width: 33%;
   padding: 24px 30px 24px 30px;
@@ -241,8 +260,8 @@ section:first-of-type{
   display: block;
   appearance: none;
   -webkit-appearance:none;
-
 }
+
 .svg_illustratie{
   max-height: 600px;
   width: 40vw;
@@ -510,10 +529,10 @@ font-size: 1em;
 color: var(--coinbase_black);
 
 }
-/* ////////////MOBILE STUKJE 950px////////////
-////////////MOBILE STUKJE 950px////////////
-////////////MOBILE STUKJE 950px////////////
-////////////MOBILE STUKJE 950px//////////// */
+/* ////////////tablet STUKJE 950px////////////
+////////////tablet STUKJE 950px////////////
+////////////tablet STUKJE 950px////////////
+////////////tablet STUKJE 950px//////////// */
 
 @media only screen and (max-width: 950px) {
   .header_wrap>.img_container {
@@ -628,6 +647,12 @@ section:nth-child(3) td:nth-child(5), section:nth-child(3) th:nth-child(5),
 section:nth-child(3) td:nth-child(6), section:nth-child(3) th:nth-child(6){
 display: none;
 }
+
+section:nth-child(3) td:nth-child(2) img{
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+}
+
 section:nth-child(4) {
   width: 100%;
   /* background-color: blue; */
@@ -653,6 +678,7 @@ section:nth-child(4)  ul li{
 section:nth-child(4)  ul li:nth-child(3), section:nth-child(4)  ul li:nth-child(2), section:nth-child(4)  ul li:nth-child(1) {
   border-bottom: 0;
 }
+
 
 /* ////////////////4de section////////////// */
 section:nth-child(5) > div{
@@ -723,9 +749,20 @@ footer{
 
 
   }
+  section:nth-child(3) td:nth-child(3){
+  text-align: right;
+  padding-right: 10px;
+  }
+  section:nth-child(3) table .td_more_space{
+    padding-right: 150px;
+  }
+section:nth-child(3) td:nth-child(4){
+  display: none;
+  }
+
   section:nth-child(3) table{
 
-    font-size: 0.8em;
+    font-size: 0.9em;
 
 
   }
@@ -737,9 +774,12 @@ footer{
     gap:1.1em;
 
   }
-  section:nth-child(4)  ul li img{height: 30px;}
+  section:nth-child(4)  ul li img{height: 30px; padding-right: 10px;}
 
-
+    section:nth-child(5) p{
+      width: 90%;
+      margin: 0 auto;
+    }
 
   .custom_list_item{
       max-width: none;
@@ -749,6 +789,31 @@ footer{
   }
   .custom_list_item > div >p{
   text-align: center;
+
+  }
+
+
+}
+
+
+#laserstraal{
+  height: 150px;
+  position: absolute;
+  top: 90vh;
+  transform:  translate(-80%, -10%) rotate(-45deg);
+}
+
+.animation_laser_straal{
+  animation: laserstraal_ani 1s linear forwards;
+
+}
+
+
+
+
+@keyframes laserstraal_ani {
+  to {
+  transform: translate(1000%, -1000%) ;
 
   }
 }
