@@ -203,6 +203,10 @@ ik vond FED een leuk vak om te doen, met name de aanpak van de lessen / eindopdr
 
 Ondanks dat ik hiervoor de opleiding web en applicatie ontwikkelaar heb gedaan. Heb ik zelf ook nog dingen geleerd denk aan: Grid, Root, kleine svg animaties. De basis kon ik al dus dat hielp zeker mee. Ook vond ik het leuk om andere klasgenoten te helpen met hun projecten en te zien wat zij hadden gemaakt
 
+Wat extra's:
+Druk op de enter knop en let op de coin naast "jump start your crypto portfolio".
+Mocht je liever een laserstraal zien druk dan op 0.
+
 De link naar mijn eindproduct:
 https://oege.ie.hva.nl/~veldenr4/coinbase_schoolproject/
 ### Screenshot(s)
