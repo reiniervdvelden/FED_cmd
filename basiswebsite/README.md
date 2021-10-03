@@ -133,32 +133,39 @@ Er waren speciale brillen die je kon opdoen en verschillende soorten "effecten" 
 - Suikerziekte brillen
 - bril met een stip in het midden
 
-Ik had ook gebruik gemaakt van de balon hoog houden om op die manier iemand met een lage concentratie te ervaren.
+Ik had ook gebruik gemaakt van de balon hooghouden om op die manier iemand met een lage concentratie te ervaren.
 
-Tot slot had ik het schok bandje om. Dit was een hele ervaring  
+Tot slot had ik het schokband om. Dit was een hele ervaring  
 
-#### Verschillende brillen bevindingen
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Verschillende brillen bevindingen.
+- bril met gele glazen:
+Deze bril was naar mijn mening het minst erg omdat je eigenlijk nog alles kon zien alleen vielen sommige kleuren weg. En op plekken waar geen goed contrast was moeilijk te lezen/zien.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+De oplossing is denk ik erg simpel door te zorgen dat je goed contrast hebt.
+
+- suikerziekte brillen:
+Het nadeel van deze bril was dat je letterlijk sommige delen van je website niet meer kon zien. Ik hoop voor mensen met suikerziekte dat ze altijd optijd zijn met insuline inspuiten want dat zicht was niet prettig en hoop je dat niemand krijgt als het voorkomen kan worden.
+
+- bril met stip in het midden:
+Deze bril was moeilijk want je kon niet echt het midden punt zien van de website. Ook in mijn geval bij coinbase soms het menu niet.
+
+Ik denk dat de oplossing hiervoor kan zijn is na te denken over een design waarbij bijv het menu aan de zeikant zit.
+
+<img src="images/brillen.png" width="375px" alt="gekke brillen op je hoofd">
 
 
-#### Titel tweede bevinding.
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Balon hooghouden.
+op mijn eigen site was het nog niet te moeite om dit te gaan testen wel ben ik gaan testen om bijvoorbeeld een berichtje te typen terwijl je de balon moet hooghouden dit was nog al een opgave... bijzonder om te zien dat je denkt het lukt makkelijk maar dat dat toch wel moeilijk blijkt te zijn
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding.
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### schokband.
+Dit was een hele vreemde ervaring om geen controlle meer te hebben over je spieren.
+Ik probeerde te scrollen op me site maar zelfs dat lukte me eigenlijk niet omdat ik bijna niet de touchpad normaal kon aanraken. Ik denk dat hiervoor de beste oplossing is als je zorgt dat je kan scrollen met de pijltjes toetsten of misschien wel voice controll aanzetten op de laptop / mobiel
+<img src="images/schokband.png" width="375px" alt="schokken door je lichaam">
+<img src="images/schokband_scroll.png" width="375px" alt="niet kunnen scrollen door de schokken">
 
 
-#### Titel nog een bevinding.
-Hier korte omschrijving (met indien nodig een afbeelding)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+
 
 </details>
 
