@@ -98,7 +98,7 @@ Verder ging bij mij alles wel goed. ik ga proberen de eerste pagina komende week
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-Het gaat opzich wel goed ik heb nu bijna de homepage af met de content die ik erop wil hebben. Er zijn alleen nog een paar dingen die ik moet fixen voor het responsive gedeelte.
+Het gaat  goed ik heb nu bijna de homepage af met de content die ik erop wil hebben. Er zijn alleen nog een paar dingen die ik moet fixen voor het responsive gedeelte.
 
 <img src="images/landing_page.png" width="375px" alt="landing page zelf gemaakt">
 <img src="images/home_page_2.png" width="375px" alt="verdere info homepage">
@@ -180,7 +180,7 @@ Ik probeerde te scrollen op me site maar zelfs dat lukte me eigenlijk niet omdat
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-de stand van zaken ging goed ik moest alleen bij me learn pagina een section maken met 2 elementen boven en 4 onder. De assistenten zeiden dat dit het makkelijkste was met grid. Ik vond dit wel moeilijk maar het is me uiteindelijk gelukt. Ik heb hier ook nog even hulp bij gekregen van de assistent (Rowin Schmidt).
+Alles verloopt goed ik moest alleen bij me learn pagina een section maken met 2 elementen boven en 4 onder. De assistenten zeiden dat dit het makkelijkste was met grid. Ik vond dit wel moeilijk maar het is me uiteindelijk gelukt. Ik heb hier ook nog even hulp bij gekregen van de assistent (Rowin Schmidt).
 Ook had ik problemen met mijn svg animatie dit bleek een hele makkelijke oplossing te hebben door alleen maar het word forwards erbij te zetten.
 
 
@@ -203,8 +203,10 @@ dit heb ik opgestoken van deze voortgang.
 <details>
 <summary>uitwerken voor eindgesprek</summary>
 
-### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+### Eind praatje
+ik vond FED een leuk vak om te doen, met name de aanpak van de lessen / eindopdracht. Leren door te doen falen doen en nog eens falen. Zelf ben ik hier een groot voorstander van.
+
+Ondanks dat ik hiervoor de opleiding web en applicatie ontwikkelaar heb gedaan. Heb ik zelf ook nog dingen geleerd denk aan: Grid, Root, kleine svg animaties. De basis kon ik al dus dat hielp zeker mee. Ook vond ik het leuk om andere klasgenoten te helpen met hun projecten en te zien wat zij hadden gemaakt
 
 De link naar mijn eindproduct:
 https://oege.ie.hva.nl/~veldenr4/coinbase_schoolproject/
