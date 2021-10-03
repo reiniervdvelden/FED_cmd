@@ -180,26 +180,17 @@ Ik probeerde te scrollen op me site maar zelfs dat lukte me eigenlijk niet omdat
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+de stand van zaken ging goed ik moest alleen bij me learn pagina een section maken met 2 elementen boven en 4 onder. De assistenten zeiden dat dit het makkelijkste was met grid. Ik vond dit wel moeilijk maar het is me uiteindelijk gelukt. Ik heb hier ook nog even hulp bij gekregen van de assistent (Rowin Schmidt).
+Ook had ik problemen met mijn svg animatie dit bleek een hele makkelijke oplossing te hebben door alleen maar het word forwards erbij te zetten.
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+dit heb ik opgestoken van deze voortgang.
+- Learn pagina sectie met grid maken
+- als een svg animatie niet wil stoppen maak gebruik van forwards ( tot einde en verder niet)
+
 
 </details>
 
@@ -215,9 +206,14 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+De link naar mijn eindproduct:
+https://oege.ie.hva.nl/~veldenr4/coinbase_schoolproject/
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+
+
+foto van me eindproduct:
+<img src="images/homescherm_klaar.png" width="375px" alt="eindproduct foto">
 
 </details>
 
