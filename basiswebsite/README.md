@@ -161,8 +161,8 @@ op mijn eigen site was het nog niet te moeite om dit te gaan testen wel ben ik g
 Dit was een hele vreemde ervaring om geen controlle meer te hebben over je spieren.
 Ik probeerde te scrollen op me site maar zelfs dat lukte me eigenlijk niet omdat ik bijna niet de touchpad normaal kon aanraken. Ik denk dat hiervoor de beste oplossing is als je zorgt dat je kan scrollen met de pijltjes toetsten of misschien wel voice controll aanzetten op de laptop / mobiel
 
-<img src="images/schoband.png" width="375px" alt="schokken door je lichaam">
-<img src="images/schoband_scroll.png" width="375px" alt="niet kunnen scrollen door de schokken">
+<img src="images/schokband.png" width="375px" alt="schokken door je lichaam">
+<img src="images/schokband_scroll.png" width="375px" alt="niet kunnen scrollen door de schokken">
 
 
 
