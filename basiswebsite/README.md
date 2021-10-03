@@ -41,11 +41,11 @@ https://www.coinbase.com/
 
 #### Screenshot(s) van de eerste pagina (small screen):
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/small_screen_home.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/small_screen_learn.png" width="375px" alt="omschrijving van de pagina">
 
 </details>
 
@@ -111,10 +111,7 @@ https://oege.ie.hva.nl/~veldenr4/coinbase_schoolproject/
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik had zelf niet echt punten die ik moest bespreken ik vond het wel fijn om mijn werk te laten zien zodat ik toch op die manier weet of ik de goeie richting op ging
 
 </details>
 
@@ -128,9 +125,19 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
+Ondanks dat voor ons het testen leuk was om te doen zit er natuurlijk ook een serieuze kant aan aangezien er mensen zijn die daadwerkelijk zulke beperkingen hebben.
+Dit zijn mijn bevinden die ik heb ondervonden/ ervaren
 
-#### Titel eerste bevinding
+Er waren speciale brillen die je kon opdoen en verschillende soorten "effecten" kreeg, ik had niet alle brillen uitgetest maar wel een paar.
+- bril met gele glazen
+- Suikerziekte brillen
+- bril met een stip in het midden
+
+Ik had ook gebruik gemaakt van de balon hoog houden om op die manier iemand met een lage concentratie te ervaren.
+
+Tot slot had ik het schok bandje om. Dit was een hele ervaring  
+
+#### Verschillende brillen bevindingen
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
@@ -215,10 +222,9 @@ hier screenshot(s) van je eindresultaat
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. w3 schools - IK heb hier gekeken voor kleine dingen
+2. stack overflow. combine hover with after https://stackoverflow.com/questions/13233991/combine-after-with-hover
+3. css - tricks grid. https://css-tricks.com/snippets/css/complete-guide-grid/
 
 </details>
