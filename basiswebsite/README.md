@@ -8,6 +8,7 @@
 ## Jij
 
 <details>
+<summary></summary>
 
 ### Auteur:
 Reinier van der Velden
@@ -27,7 +28,7 @@ responsive
 ## Je website
 
 <details>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<summary></summary>
 
 ### Je opdracht:
 Ik ga coinbase proberen na te maken:
@@ -50,7 +51,7 @@ hier de naam van de pagina
 ## Breakdownschets (week 1)
 
 <details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
+<summary></summary>
 
 ### de hele pagina:
 <img src="images/breakdown.png" width="375px" alt="breakdown van de hele pagina">
@@ -66,7 +67,7 @@ hier de naam van de pagina
 ## Voortgang 1 (week 2)
 
 <details>
-<summary>uitwerken voor 1e voortgang</summary>
+<summary></summary>
 
 ### Stand van zaken
 Het gaat opzich best goed, Ik ben bezig de home pagina ben al wel over de helft. Ik maak alles meteen responsive omdat ik denk dat dit makkelijker is.
@@ -89,7 +90,7 @@ Verder ging bij mij alles wel goed. ik ga proberen de eerste pagina komende week
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
+<summary></summary>
 
 ### Stand van zaken
 Het gaat  goed ik heb nu bijna de homepage af met de content die ik erop wil hebben. Er zijn alleen nog een paar dingen die ik moet fixen voor het responsive gedeelte.
@@ -116,7 +117,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary>uitwerken na test in 8e voortgang</summary>
+<summary></summary>
 
 ### Bevindingen
 Ondanks dat voor ons het testen leuk was om te doen zit er natuurlijk ook een serieuze kant aan aangezien er mensen zijn die daadwerkelijk zulke beperkingen hebben.
@@ -171,7 +172,7 @@ Ik probeerde te scrollen op me site maar zelfs dat lukte me eigenlijk niet omdat
 ## Voortgang 3 (week 4)
 
 <details>
-<summary>uitwerken voor 3e voortgang</summary>
+<summary></summary>
 
 ### Stand van zaken
 Alles verloopt goed ik moest alleen bij me learn pagina een section maken met 2 elementen boven en 4 onder. De assistenten zeiden dat dit het makkelijkste was met grid. Ik vond dit wel moeilijk maar het is me uiteindelijk gelukt. Ik heb hier ook nog even hulp bij gekregen van de assistent (Rowin Schmidt).
@@ -195,7 +196,7 @@ dit heb ik opgestoken van deze voortgang.
 ## Eindgesprek (week 5)
 
 <details>
-<summary>uitwerken voor eindgesprek</summary>
+<summary></summary>
 
 ### Eind praatje
 ik vond FED een leuk vak om te doen, met name de aanpak van de lessen / eindopdracht. Leren door te doen falen doen en nog eens falen. Zelf ben ik hier een groot voorstander van.
