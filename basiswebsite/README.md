@@ -213,7 +213,7 @@ https://oege.ie.hva.nl/~veldenr4/coinbase_schoolproject/
 
 
 foto van me eindproduct:
-<img src="images/homescherm_klaar.png" width="300px" alt="eindproduct foto">
+<img src="images/homescherm_klaar.png" width="250px" alt="eindproduct foto">
 
 </details>
 
